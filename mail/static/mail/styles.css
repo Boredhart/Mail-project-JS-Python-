@@ -1,0 +1,38 @@
+textarea {
+    min-height: 400px;
+}
+
+a:link, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+}
+
+.email-sender {
+    display: inline-block;
+    width: 30%;
+}
+
+.email-subject {
+    display: inline-block;
+    margin-right: 10px;
+    max-width: 15%;
+    width: 15%;
+}
+
+.email-body {
+    display: inline-block;
+    position: relative;
+    max-width: 53%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    top: 6px;
+}
+
+#submit {
+    margin-top: 10px;
+}
